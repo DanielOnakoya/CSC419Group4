@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-gradient-to-br from-[#0b0614] via-[#120a1f] to-[#1a0f2e] text-white;
+}
